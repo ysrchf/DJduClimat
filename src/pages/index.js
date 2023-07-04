@@ -8,6 +8,10 @@ export default function Home() {
         <Link  legacyBehavior href="/signup">
           <a className="text-primary hover:underline">Sign Up</a>
         </Link>
+        <br/>
+        <Link legacyBehavior href="/signin">
+          <a className="text-primary hover:underline">Sign In</a>
+        </Link>
       </div>
     </div>
   );
