@@ -27,7 +27,7 @@ export default function SignUp() {
       alert('Passwords do not match');
       return;
     }
-    
+
    alert('Sign-up successful!');
   };
 
@@ -52,7 +52,7 @@ export default function SignUp() {
           />
         </div>
         <div className="mb-4">
-          <label className="block mb-2 font-bold" htmlFor="password">
+          <label className="block mb-2 font-bold" >
             Password
           </label>
           <input
@@ -64,8 +64,8 @@ export default function SignUp() {
             required
           />
         </div>
-        <div className="mb-6">
-          <label className="block mb-2 font-bold" htmlFor="confirmPassword">
+        <div className="mb-4">
+          <label className="block mb-2 font-bold" >
             Confirm Password
           </label>
           <input
