@@ -1,3 +1,4 @@
+import Router from 'next/router';
 import { useState } from 'react';
 
 export default function SignIn() {
@@ -11,6 +12,7 @@ export default function SignIn() {
     // ...
 
     alert('Sign-in successful!');
+    Router.push("/")
   };
 
   return (
