@@ -1,35 +1,38 @@
-import { useState } from 'react';
+import { useState } from "react"
 
 export default function SignUp() {
-  const [email, setEmail] = useState('');
-  const [password, setPassword] = useState('');
-  const [confirmPassword, setConfirmPassword] = useState('');
+  const [email, setEmail] = useState("")
+  const [password, setPassword] = useState("")
+  const [confirmPassword, setConfirmPassword] = useState("")
 
-  const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-  const passwordRegex = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]{8,}$/;
+  const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/
+  const passwordRegex = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]{8,}$/
 
   const handleSubmit = (e) => {
-    e.preventDefault();
+    e.preventDefault()
 
     if (!emailRegex.test(email)) {
-      alert('Invalid email format');
-      return;
+      alert("Invalid email format")
+
+      return
     }
 
     if (!passwordRegex.test(password)) {
       alert(
-        'Password must contain at least 8 characters, including at least one uppercase letter, one lowercase letter, and one number'
-      );
-      return;
+        "Password must contain at least 8 characters, including at least one uppercase letter, one lowercase letter, and one number",
+      )
+
+      return
     }
 
     if (password !== confirmPassword) {
-      alert('Passwords do not match');
-      return;
+      alert("Passwords do not match")
+
+      return
     }
 
-   alert('Sign-up successful!');
-  };
+    alert("Sign-up successful!")
+  }
 
   return (
     <div className="flex justify-center items-center h-screen bg-gray-100">
@@ -52,9 +55,7 @@ export default function SignUp() {
           />
         </div>
         <div className="mb-4">
-          <label className="block mb-2 font-bold" >
-            Password
-          </label>
+          <label className="block mb-2 font-bold">Password</label>
           <input
             className="w-full border border-gray-300 rounded py-2 px-3 focus:outline-none focus:border-primary"
             type="password"
@@ -65,9 +66,7 @@ export default function SignUp() {
           />
         </div>
         <div className="mb-4">
-          <label className="block mb-2 font-bold" >
-            Confirm Password
-          </label>
+          <label className="block mb-2 font-bold">Confirm Password</label>
           <input
             className="w-full border border-gray-300 rounded py-2 px-3 focus:outline-none focus:border-primary"
             type="password"
@@ -85,5 +84,5 @@ export default function SignUp() {
         </button>
       </form>
     </div>
-  );
+  )
 }

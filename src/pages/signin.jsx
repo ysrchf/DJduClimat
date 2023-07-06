@@ -1,19 +1,19 @@
-import Router from 'next/router';
-import { useState } from 'react';
+import Router from "next/router"
+import { useState } from "react"
 
 export default function SignIn() {
-  const [email, setEmail] = useState('');
-  const [password, setPassword] = useState('');
+  const [email, setEmail] = useState("")
+  const [password, setPassword] = useState("")
 
   const handleSubmit = (e) => {
-    e.preventDefault();
+    e.preventDefault()
 
     // Perform sign-in logic here
     // ...
 
-    alert('Sign-in successful!');
-    Router.push("/")
-  };
+    alert("Sign-in successful!")
+    Router.push("/choix1")
+  }
 
   return (
     <div className="flex justify-center items-center h-screen bg-gray-100">
@@ -56,5 +56,5 @@ export default function SignIn() {
         </button>
       </form>
     </div>
-  );
+  )
 }
