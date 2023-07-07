@@ -65,15 +65,15 @@ const Choix5 = () => {
     <GameLayout title="Entreprises">
       <p className="text-lg mb-4">Faites un choix :</p>
       <div className="flex items-center justify-center space-x-4 ">
-        <div className="bg-blue-500 rounded hover:bg-blue-700 relative">
+        <div className="bg-orangedjrounded  hover:bg-orange-300 relative">
           <button
-            className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+            className="bg-orangedj hover:bg-orange-300 text-white font-bold py-2 px-4 rounded"
             onClick={() => handleChoice("Option1")}
           >
             Déforestation et construction d'entreprises
           </button>
           <button
-            className="absolute top-0 right-0 w-4 h-4 bg-red-500 hover:bg-red-700 text-white rounded-full flex items-center justify-center"
+            className="absolute top-0 right-0 w-4 h-4 bg-red-700 hover:bg-red-700 text-white rounded-full flex items-center justify-center"
             onClick={handleOpenModal1}
           >
             ?
@@ -94,15 +94,15 @@ const Choix5 = () => {
             conflits avec les communautés locales et un déséquilibre écologique.
           </p>
         </Modal>
-        <div className="bg-blue-500 rounded hover:bg-blue-700 relative">
+        <div className="bg-orangedjrounded  hover:bg-orange-300 relative">
           <button
-            className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+            className="bg-orangedj hover:bg-orange-300 text-white font-bold py-2 px-4 rounded"
             onClick={() => handleChoice("Option2")}
           >
             Entreprise libre de faire ce qu'elle veut
           </button>
           <button
-            className="absolute top-0 right-0 w-4 h-4 bg-red-500 hover:bg-red-700 text-white rounded-full flex items-center justify-center"
+            className="absolute top-0 right-0 w-4 h-4 bg-red-700 hover:bg-red-700 text-white rounded-full flex items-center justify-center"
             onClick={handleOpenModal2}
           >
             ?
@@ -123,15 +123,15 @@ const Choix5 = () => {
             l'environnement et négliger les intérêts des communautés locales.
           </p>
         </Modal>
-        <div className="bg-blue-500 rounded hover:bg-blue-700 relative">
+        <div className="bg-orangedjrounded  hover:bg-orange-300 relative">
           <button
-            className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+            className="bg-orangedj hover:bg-orange-300 text-white font-bold py-2 px-4 rounded"
             onClick={() => handleChoice("Option3")}
           >
             Régulation des entreprises
           </button>
           <button
-            className="absolute top-0 right-0 w-4 h-4 bg-red-500 hover:bg-red-700 text-white rounded-full flex items-center justify-center"
+            className="absolute top-0 right-0 w-4 h-4 bg-red-700 hover:bg-red-700 text-white rounded-full flex items-center justify-center"
             onClick={handleOpenModal3}
           >
             ?
@@ -154,15 +154,15 @@ const Choix5 = () => {
             rigoureuses.
           </p>
         </Modal>
-        <div className="bg-blue-500 rounded hover:bg-blue-700 relative">
+        <div className="bg-orangedjrounded  hover:bg-orange-300 relative">
           <button
-            className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+            className="bg-orangedj hover:bg-orange-300 text-white font-bold py-2 px-4 rounded"
             onClick={() => handleChoice("Option4")}
           >
             Préservation de la nature et interdiction des entreprises
           </button>
           <button
-            className="absolute top-0 right-0 w-4 h-4 bg-red-500 hover:bg-red-700 text-white rounded-full flex items-center justify-center"
+            className="absolute top-0 right-0 w-4 h-4 bg-red-700 hover:bg-red-700 text-white rounded-full flex items-center justify-center"
             onClick={handleOpenModal4}
           >
             ?

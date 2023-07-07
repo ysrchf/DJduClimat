@@ -21,10 +21,10 @@ const Ending = () => {
   }
 
   return (
-    <GameLayout title="Mon Jeu Textuel">
+    <GameLayout title="FIN">
       <p className="text-lg mb-4">{ending}</p>
       <Link legacyBehavior href="/game">
-        <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+        <button className="bg-orangedj hover:bg-orange-300 text-white font-bold py-2 px-4 rounded">
           Merci d'avoir joué
         </button>
       </Link>

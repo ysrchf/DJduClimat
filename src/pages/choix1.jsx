@@ -100,20 +100,21 @@ const Choix1 = () => {
   }
 
   return (
-    <GameLayout title="Mon Jeu Textuel">
+    <GameLayout title="Energie">
       <p className="text-lg mb-4">
-        Bienvenue dans le jeu textuel! Faites un choix :
+        Devenu président de la Terre, Nova doit faire face à son premier choix:
+        choisir la source d'énergie principale à exploiter.
       </p>
       <div className="flex items-center justify-center space-x-4 ">
-        <div className="bg-blue-500 rounded hover:bg-blue-700 relative">
+        <div className="bg-orangedj rounded hover:bg-orange-300 relative">
           <button
-            className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+            className="bg-orangedj hover:bg-orange-300 text-white font-bold py-2 px-4 rounded"
             onClick={() => handleChoice("Option1")}
           >
             Charbon
           </button>
           <button
-            className="absolute top-0 right-0 w-4 h-4 bg-red-500 hover:bg-red-700 text-white rounded-full flex items-center justify-center"
+            className="absolute top-0 right-0 w-4 h-4 bg-red-700 hover:bg-red-700 text-white rounded-full flex items-center justify-center"
             onClick={handleOpenModal1}
           >
             ?
@@ -133,15 +134,15 @@ const Choix1 = () => {
             pour l'environnement.
           </p>
         </Modal>
-        <div className="bg-blue-500 rounded hover:bg-blue-700 relative">
+        <div className="bg-orangedj rounded hover:bg-orange-300 relative">
           <button
-            className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+            className="bg-orangedj hover:bg-orange-300 text-white font-bold py-2 px-4 rounded"
             onClick={() => handleChoice("Option2")}
           >
             Pétrole
           </button>
           <button
-            className="absolute top-0 right-0 w-4 h-4 bg-red-500 hover:bg-red-700 text-white rounded-full flex items-center justify-center"
+            className="absolute top-0 right-0 w-4 h-4 bg-red-700 hover:bg-red-700 text-white rounded-full flex items-center justify-center"
             onClick={handleOpenModal2}
           >
             ?
@@ -161,15 +162,15 @@ const Choix1 = () => {
             mais peu respectueuses de l'environnement.
           </p>
         </Modal>
-        <div className="bg-blue-500 rounded hover:bg-blue-700 relative">
+        <div className="bg-orangedj rounded hover:bg-orange-300 relative">
           <button
-            className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+            className="bg-orangedj hover:bg-orange-300 text-white font-bold py-2 px-4 rounded"
             onClick={() => handleChoice("Option3")}
           >
             Gaz Naturel
           </button>
           <button
-            className="absolute top-0 right-0 w-4 h-4 bg-red-500 hover:bg-red-700 text-white rounded-full flex items-center justify-center"
+            className="absolute top-0 right-0 w-4 h-4 bg-red-700 hover:bg-red-700 text-white rounded-full flex items-center justify-center"
             onClick={handleOpenModal3}
           >
             ?
@@ -189,15 +190,15 @@ const Choix1 = () => {
             mais peu respectueuses de l'environnement.
           </p>
         </Modal>
-        <div className="bg-blue-500 rounded hover:bg-blue-700 relative">
+        <div className="bg-orangedj rounded hover:bg-orange relative">
           <button
-            className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+            className="bg-orangedj hover:bg-orange-300 text-white font-bold py-2 px-4 rounded"
             onClick={() => handleChoice("Option4")}
           >
             Nucléaire
           </button>
           <button
-            className="absolute top-0 right-0 w-4 h-4 bg-red-500 hover:bg-red-700 text-white rounded-full flex items-center justify-center"
+            className="absolute top-0 right-0 w-4 h-4 bg-red-700 hover:bg-red-700 text-white rounded-full flex items-center justify-center"
             onClick={handleOpenModal4}
           >
             ?
@@ -218,15 +219,15 @@ const Choix1 = () => {
             polluante.
           </p>
         </Modal>
-        <div className="bg-blue-500 rounded hover:bg-blue-700 relative">
+        <div className="bg-orangedj rounded hover:bg-orange-300 relative">
           <button
-            className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+            className="bg-orangedj hover:bg-orange-300 text-white font-bold py-2 px-4 rounded"
             onClick={() => handleChoice("Option5")}
           >
             Bioénergie
           </button>
           <button
-            className="absolute top-0 right-0 w-4 h-4 bg-red-500 hover:bg-red-700 text-white rounded-full flex items-center justify-center"
+            className="absolute top-0 right-0 w-4 h-4 bg-red-700 hover:bg-red-700 text-white rounded-full flex items-center justify-center"
             onClick={handleOpenModal5}
           >
             ?
@@ -247,15 +248,15 @@ const Choix1 = () => {
             susceptible de poser des problèmes d'utilisation des terres.
           </p>
         </Modal>
-        <div className="bg-blue-500 rounded hover:bg-blue-700 relative">
+        <div className="bg-orangedj rounded hover:bg-orange-300 relative">
           <button
-            className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+            className="bg-orangedj hover:bg-orange-300 text-white font-bold py-2 px-4 rounded"
             onClick={() => handleChoice("Option6")}
           >
             Énergies renouvelables
           </button>
           <button
-            className="absolute top-0 right-0 w-4 h-4 bg-red-500 hover:bg-red-700 text-white rounded-full flex items-center justify-center"
+            className="absolute top-0 right-0 w-4 h-4 bg-red-700 hover:bg-red-700 text-white rounded-full flex items-center justify-center"
             onClick={handleOpenModal6}
           >
             ?
@@ -276,15 +277,15 @@ const Choix1 = () => {
             infrastructure adéquate.
           </p>
         </Modal>
-        <div className="bg-blue-500 rounded hover:bg-blue-700 relative">
+        <div className="bg-orangedj rounded hover:bg-orange-300 relative">
           <button
-            className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+            className="bg-orangedj hover:bg-orange-300 text-white font-bold py-2 px-4 rounded"
             onClick={() => handleChoice("Option7")}
           >
             Zéro carbone
           </button>
           <button
-            className="absolute top-0 right-0 w-4 h-4 bg-red-500 hover:bg-red-700 text-white rounded-full flex items-center justify-center"
+            className="absolute top-0 right-0 w-4 h-4 bg-red-700 hover:bg-red-700 text-white rounded-full flex items-center justify-center"
             onClick={handleOpenModal7}
           >
             ?

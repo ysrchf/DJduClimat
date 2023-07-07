@@ -13,6 +13,7 @@ module.exports = {
         info: "#2dd9c8",
         warning: "#ffec20",
         gray: "#fafafa",
+        orangedj: "#fb8151",
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",

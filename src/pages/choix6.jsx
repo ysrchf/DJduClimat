@@ -68,15 +68,15 @@ const Choix6 = () => {
         Bienvenue dans le jeu textuel! Faites un choix :
       </p>
       <div className="flex items-center justify-center space-x-4 ">
-        <div className="bg-blue-500 rounded hover:bg-blue-700 relative">
+        <div className="bg-orangedjrounded  hover:bg-orange-300 relative">
           <button
-            className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+            className="bg-orangedj hover:bg-orange-300 text-white font-bold py-2 px-4 rounded"
             onClick={() => handleChoice("Option1")}
           >
             Technologie militaire
           </button>
           <button
-            className="absolute top-0 right-0 w-4 h-4 bg-red-500 hover:bg-red-700 text-white rounded-full flex items-center justify-center"
+            className="absolute top-0 right-0 w-4 h-4 bg-red-700 hover:bg-red-700 text-white rounded-full flex items-center justify-center"
             onClick={handleOpenModal1}
           >
             ?
@@ -95,15 +95,15 @@ const Choix6 = () => {
             peut détourner l'attention des autres domaines de développement.
           </p>
         </Modal>
-        <div className="bg-blue-500 rounded hover:bg-blue-700 relative">
+        <div className="bg-orangedjrounded  hover:bg-orange-300 relative">
           <button
-            className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+            className="bg-orangedj hover:bg-orange-300 text-white font-bold py-2 px-4 rounded"
             onClick={() => handleChoice("Option2")}
           >
             Technologie sur le rendement
           </button>
           <button
-            className="absolute top-0 right-0 w-4 h-4 bg-red-500 hover:bg-red-700 text-white rounded-full flex items-center justify-center"
+            className="absolute top-0 right-0 w-4 h-4 bg-red-700 hover:bg-red-700 text-white rounded-full flex items-center justify-center"
             onClick={handleOpenModal2}
           >
             ?
@@ -124,15 +124,15 @@ const Choix6 = () => {
             dépendance excessive à la technologie.
           </p>
         </Modal>
-        <div className="bg-blue-500 rounded hover:bg-blue-700 relative">
+        <div className="bg-orangedjrounded  hover:bg-orange-300 relative">
           <button
-            className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+            className="bg-orangedj hover:bg-orange-300 text-white font-bold py-2 px-4 rounded"
             onClick={() => handleChoice("Option3")}
           >
             Technologie du savoir
           </button>
           <button
-            className="absolute top-0 right-0 w-4 h-4 bg-red-500 hover:bg-red-700 text-white rounded-full flex items-center justify-center"
+            className="absolute top-0 right-0 w-4 h-4 bg-red-700 hover:bg-red-700 text-white rounded-full flex items-center justify-center"
             onClick={handleOpenModal3}
           >
             ?
@@ -153,15 +153,15 @@ const Choix6 = () => {
             investissements à long terme.
           </p>
         </Modal>
-        <div className="bg-blue-500 rounded hover:bg-blue-700 relative">
+        <div className="bg-orangedjrounded  hover:bg-orange-300 relative">
           <button
-            className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+            className="bg-orangedj hover:bg-orange-300 text-white font-bold py-2 px-4 rounded"
             onClick={() => handleChoice("Option4")}
           >
             Technologie sans carbone très coûteuse
           </button>
           <button
-            className="absolute top-0 right-0 w-4 h-4 bg-red-500 hover:bg-red-700 text-white rounded-full flex items-center justify-center"
+            className="absolute top-0 right-0 w-4 h-4 bg-red-700 hover:bg-red-700 text-white rounded-full flex items-center justify-center"
             onClick={handleOpenModal4}
           >
             ?

@@ -64,20 +64,18 @@ const Choix4 = () => {
   }
 
   return (
-    <GameLayout title="Mon Jeu Textuel">
-      <p className="text-lg mb-4">
-        Bienvenue dans le jeu textuel! Faites un choix :
-      </p>
+    <GameLayout title="Politique de la famille">
+      <p className="text-lg mb-4">Faites un choix :</p>
       <div className="flex items-center justify-center space-x-4 ">
-        <div className="bg-blue-500 rounded hover:bg-blue-700 relative">
+        <div className="bg-orangedjrounded  hover:bg-orange-300 relative">
           <button
-            className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+            className="bg-orangedj hover:bg-orange-300 text-white font-bold py-2 px-4 rounded"
             onClick={() => handleChoice("Option1")}
           >
             6 enfants ou +
           </button>
           <button
-            className="absolute top-0 right-0 w-4 h-4 bg-red-500 hover:bg-red-700 text-white rounded-full flex items-center justify-center"
+            className="absolute top-0 right-0 w-4 h-4 bg-red-700 hover:bg-red-700 text-white rounded-full flex items-center justify-center"
             onClick={handleOpenModal1}
           >
             ?
@@ -94,15 +92,15 @@ const Choix4 = () => {
             de santé.
           </p>
         </Modal>
-        <div className="bg-blue-500 rounded hover:bg-blue-700 relative">
+        <div className="bg-orangedjrounded  hover:bg-orange-300 relative">
           <button
-            className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+            className="bg-orangedj hover:bg-orange-300 text-white font-bold py-2 px-4 rounded"
             onClick={() => handleChoice("Option2")}
           >
             4 à 5 enfants
           </button>
           <button
-            className="absolute top-0 right-0 w-4 h-4 bg-red-500 hover:bg-red-700 text-white rounded-full flex items-center justify-center"
+            className="absolute top-0 right-0 w-4 h-4 bg-red-700 hover:bg-red-700 text-white rounded-full flex items-center justify-center"
             onClick={handleOpenModal2}
           >
             ?
@@ -123,15 +121,15 @@ const Choix4 = () => {
             nombreuses.
           </p>
         </Modal>
-        <div className="bg-blue-500 rounded hover:bg-blue-700 relative">
+        <div className="bg-orangedjrounded  hover:bg-orange-300 relative">
           <button
-            className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+            className="bg-orangedj hover:bg-orange-300 text-white font-bold py-2 px-4 rounded"
             onClick={() => handleChoice("Option3")}
           >
             2 à 3 enfants
           </button>
           <button
-            className="absolute top-0 right-0 w-4 h-4 bg-red-500 hover:bg-red-700 text-white rounded-full flex items-center justify-center"
+            className="absolute top-0 right-0 w-4 h-4 bg-red-700 hover:bg-red-700 text-white rounded-full flex items-center justify-center"
             onClick={handleOpenModal3}
           >
             ?
@@ -151,15 +149,15 @@ const Choix4 = () => {
             contribuer à réduire la pression sur les ressources naturelles.
           </p>
         </Modal>
-        <div className="bg-blue-500 rounded hover:bg-blue-700 relative">
+        <div className="bg-orangedjrounded  hover:bg-orange-300 relative">
           <button
-            className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+            className="bg-orangedj hover:bg-orange-300 text-white font-bold py-2 px-4 rounded"
             onClick={() => handleChoice("Option4")}
           >
             0 à 1 enfant
           </button>
           <button
-            className="absolute top-0 right-0 w-4 h-4 bg-red-500 hover:bg-red-700 text-white rounded-full flex items-center justify-center"
+            className="absolute top-0 right-0 w-4 h-4 bg-red-700 hover:bg-red-700 text-white rounded-full flex items-center justify-center"
             onClick={handleOpenModal4}
           >
             ?

@@ -17,14 +17,15 @@ const StartPage = () => {
 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100">
-      <h1 className="text-3xl font-bold mb-4">
-        Bienvenue dans le jeu textuel !
-      </h1>
+      <h1 className="text-3xl font-bold mb-4">Bienvenue dans DJ du Climat !</h1>
+      <p className="text-lg mb-8 font-bold">
+        Le jeu à choix impactant sur le destin de la planète
+      </p>
       <p className="text-lg mb-8">
-        Cliquez sur le bouton pour commencer une nouvelle partie :
+        Cliquez sur le bouton pour incarner DJ Nova :
       </p>
       <button
-        className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+        className="bg-orangedj hover:bg-orange-300 text-white font-bold py-2 px-4 rounded"
         onClick={handleStartGame}
       >
         Commencer la partie
