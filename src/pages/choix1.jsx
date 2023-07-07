@@ -6,7 +6,7 @@ import GameLayout from "../components/GameLayout"
 import Modal from "../components/Modal"
 import Router from "next/router"
 
-const GamePage = () => {
+const Choix1 = () => {
   const [isModal1Open, setIsModal1Open] = useState(false)
   const [isModal2Open, setIsModal2Open] = useState(false)
   const [isModal3Open, setIsModal3Open] = useState(false)
@@ -71,25 +71,32 @@ const GamePage = () => {
   }
 
   const handleChoice = (choice) => {
-    // Mettez ici la logique pour gérer le choix du joueur
+    // logique pour gérer le choix du joueur
 
     if (choice == "Option1") {
       updateVariable(gameState.variable - 6)
+      Router.push("/choix2")
     } else if (choice == "Option2") {
       updateVariable(gameState.variable - 3)
+      Router.push("/choix2")
     } else if (choice == "Option3") {
       updateVariable(gameState.variable - 3)
+      Router.push("/choix2")
     } else if (choice == "Option4") {
       updateVariable(gameState.variable + 3)
+      Router.push("/choix2")
     } else if (choice == "Option5") {
       updateVariable(gameState.variable + 4)
+      Router.push("/choix2")
     } else if (choice == "Option6") {
       updateVariable(gameState.variable + 6)
+      Router.push("/choix2")
     } else if (choice == "Option7") {
       updateVariable(gameState.variable + 8)
+      Router.push("/choix2")
     }
-    
-    Router.push("/gamepage")
+
+    Router.push("/choix2")
   }
 
   return (
@@ -300,10 +307,8 @@ const GamePage = () => {
           </p>
         </Modal>
       </div>
-
-      {/* Ajoutez d'autres choix selon vos besoins */}
     </GameLayout>
   )
 }
 
-export default GamePage
+export default Choix1

@@ -7,6 +7,7 @@ export const AppContextProvider = ({ children }) => {
     // Initialisez votre variable globale ici
 
     variable: 0,
+    
   })
 
   const updateVariable = (value) => {

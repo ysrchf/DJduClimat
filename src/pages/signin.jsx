@@ -8,11 +8,8 @@ export default function SignIn() {
   const handleSubmit = (e) => {
     e.preventDefault()
 
-    // Perform sign-in logic here
-    // ...
-
     alert("Sign-in successful!")
-    Router.push("/choix1")
+    Router.push("/game")
   }
 
   return (
